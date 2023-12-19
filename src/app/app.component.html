@@ -12,7 +12,7 @@
         <img src="./assets/warm.jpg" *ngIf="weatherData.main.temp>=15 && weatherData.main.temp<=29" />
         <div class="weather-data">
             <div class="location">{{weatherData.name}}</div>
-            <div class="temperature">{{weatherData.main.temp|number:'1.0-0'}}ºC</div>
+            <div class="temperature">{{weatherData.main.temp|number:'1.0-0'}}ºF</div>
         </div>
     </div>
     <div class="lower-div">
